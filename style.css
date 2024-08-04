@@ -1,0 +1,65 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: aquamarine;
+    font-family: "Open Sans", sans-serif;
+    background-image: url(pic5.jpg);
+    background-size: cover;  
+}
+.stopwatch
+{
+    height: 10rem;
+    max-width: 800px;
+    background-image: url(pic6.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    color: beige;
+    margin: 200px auto 0;
+    border-radius: 30px;
+}
+h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 300;
+}
+.button
+{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button .start
+{
+    width: 60px;
+
+}
+.button img
+{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.start:hover
+{
+    transition-duration: 0.3s;
+    width: 75px;
+}
+.stop:hover
+{
+    transition-duration: 0.3s;
+    width: 75px;
+}
+.reset:hover
+{
+    transition-duration: 0.3s;
+    width: 75px;
+}
